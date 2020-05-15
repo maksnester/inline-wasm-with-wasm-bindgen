@@ -4,5 +4,5 @@ console.log(wasmInstantiate)
 
 wasmInstantiate({}).then(instance => {
   console.log(instance);
-  console(instance.exports.hello_world());
+  console.log(instance.exports.hello_world());
 });
